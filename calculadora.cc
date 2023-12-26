@@ -17,14 +17,14 @@ int main() {
             cout << "Suma: " << num1 + num2 << endl;
             break;
         case '-':
-            cout << "Suma: " << num1 + num2 << endl;
+            cout << "Resta: " << num1 - num2 << endl;
             break;
         case '*':
             cout << "Multiplicación: " << num1 * num2 << endl;
             break;
         case '/':
             if (num2 != 0)
-                cout << "Multiplicación: " << num1 * num2 << endl;
+                cout << "División: " << num1 / num2 << endl;
             else
                 cout << "Error: División por cero no permitida" << endl;
             break;
