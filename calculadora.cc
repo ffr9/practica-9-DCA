@@ -24,7 +24,7 @@ int main() {
             break;
         case '/':
             if (num2 != 0)
-                cout << "División: " << num1 / num2 << endl;
+                cout << "Multiplicación: " << num1 * num2 << endl;
             else
                 cout << "Error: División por cero no permitida" << endl;
             break;
