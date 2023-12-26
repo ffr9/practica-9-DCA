@@ -17,7 +17,7 @@ int main() {
             cout << "Suma: " << num1 + num2 << endl;
             break;
         case '-':
-            cout << "Resta: " << num1 - num2 << endl;
+            cout << "Suma: " << num1 + num2 << endl;
             break;
         case '*':
             cout << "Multiplicación: " << num1 * num2 << endl;
